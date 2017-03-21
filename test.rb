@@ -10,7 +10,7 @@ class Test
   end
 
   def ask_questions
-    @questions.each {|question| 
+    @questions.each do |question| 
       puts "\n#{question}"
 
       # Available answers output
@@ -32,6 +32,6 @@ class Test
         when 3
           @scores += 1
       end 
-    }
+    end
   end
 end
