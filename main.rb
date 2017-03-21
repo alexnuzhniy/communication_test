@@ -1,8 +1,8 @@
 current_path = File.dirname(__FILE__)
 
-require_relative 'test.rb'
-require_relative 'file_reader.rb'
-require_relative 'result_test_printer.rb'
+require current_path + '/lib/test.rb'
+require current_path + '/lib/file_reader.rb'
+require current_path + '/lib/result_test_printer.rb'
 
 questions_path = current_path + "/data/questions.txt"
 results_path = current_path + "/data/results.txt"
